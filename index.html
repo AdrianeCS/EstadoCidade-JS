@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Estado e Cidade</title>
+</head>
+<body>
+    <form>
+  
+        <div class="conteiner">
+            <div  class =" from-image " >
+           <img src="undraw_city_life_gnpr.svg" alt="">
+            </div>
+            <div class="input-box">
+                <label for="selectEstado">Estado</label>
+                <select name="selectEstado" id="selectEstado">
+                    <option value="0">--- Selecione seu estado ---</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MT">Mato Grosso</option>
+                </select>
+            </div>
+            
+            <div class="input-box">
+                <label for="selectCidade">Cidade</label>
+                <select name="selectCidade" id="selectCidade" disabled>
+                    <option value="0">--- Selecione sua cidade ---</option> 
+                </select>
+            </div>
+       
+            <div class="input-box"> </div>
+        <div id="exibeCidadeEstado" class="divDeTexto"></div>
+    </form>
+    <div>
+</body>
+</html>
